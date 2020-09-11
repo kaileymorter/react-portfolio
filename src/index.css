@@ -181,7 +181,7 @@ form {
   margin-top: 1rem;
   padding: 1rem;
   background-color: var(--dark);
-  position: static;
+  position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;

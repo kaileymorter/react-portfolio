@@ -1,17 +1,25 @@
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 
-function Navigation() {
+function Navigation(props) {
+    const tabs = ['About Me', 'Portfolio', 'Contact', 'Resume']
+
     return (
         <Navbar collapseOnSelect expand="lg" variant="dark" className="header">
             <Navbar.Brand href="#home">Kailey Morter's Portfolio</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="ml-auto">
-                <Nav.Link href="#about">About Me</Nav.Link>
-                <Nav.Link href="#portfolio">Portfolio</Nav.Link>
-                <Nav.Link href="#contact">Contact</Nav.Link>
-                <Nav.Link href="#resume">Resume</Nav.Link>
+                    {tabs.map(tab => (
+                        <li className="nav-item" key={tab}>
+                        <Nav.Link 
+                            href={'#' + tab.toLowerCase()}
+                            onClick={() => props.handlePageChange(tab)}
+                        >
+                            {tab}
+                        </Nav.Link >
+                        </li>
+                    ))}
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
