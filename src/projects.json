@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "name": "Budget Tracker",
+        "image": "",
+        "github": "https://github.com/kaileymorter/budget-tracker",
+        "deploy": "https://serene-beach-53594.herokuapp.com/"
+    },
+    {
+        "id": 2,
+        "name": "CMS Blog",
+        "image": "",
+        "github": "https://github.com/kaileymorter/cms-blog",
+        "deploy": "https://calm-caverns-94616.herokuapp.com/"
+    },
+    {
+        "id": 3,
+        "name": "Note Taker",
+        "image": "",
+        "github": "https://github.com/kaileymorter/note-taker",
+        "deploy": "https://stark-bastion-43404.herokuapp.com/"
+    },
+    {
+        "id": 4,
+        "name": "Weather Dashboard",
+        "image": "",
+        "github": "https://github.com/kaileymorter/weather-city-dashboard",
+        "deploy": "https://kaileymorter.github.io/weather-city-dashboard/"
+    },
+    {
+        "id": 5,
+        "name": "Work Day Scheduler",
+        "image": "",
+        "github": "https://github.com/kaileymorter/work-day-scheduler",
+        "deploy": "https://kaileymorter.github.io/work-day-scheduler/"
+    },
+    {
+        "id": 6,
+        "name": "Company Calendar",
+        "image": "",
+        "github": "https://github.com/ZQWhiting/company-calendar",
+        "deploy": "https://company-calendar.herokuapp.com/"
+    },
+    {
+        "id": 7,
+        "name": "Javascript Coding Quiz",
+        "image": "",
+        "github": "https://github.com/kaileymorter/coding-quiz",
+        "deploy": "https://kaileymorter.github.io/coding-quiz/"
+    },
+    {
+        "id": 8,
+        "name": "Password Generator",
+        "image": "",
+        "github": "https://github.com/kaileymorter/password-generator",
+        "deploy": "https://kaileymorter.github.io/password-generator/"
+    },
+    {
+        "id": 9,
+        "name": "TaskMaster Pro Edition",
+        "image": "",
+        "github": "https://github.com/kaileymorter/password-generator",
+        "deploy": "https://kaileymorter.github.io/taskmaster-pro/"
+    }
+]
