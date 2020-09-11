@@ -166,6 +166,16 @@ form {
 
 }
 
+/* Contact Page Styling */
+.resume-title {
+  padding: 20px;
+  text-align: center;
+}
+
+.resume-content {
+  text-align: center;
+}
+
 /* Footer Styling */
 .footer{
   margin-top: 1rem;
