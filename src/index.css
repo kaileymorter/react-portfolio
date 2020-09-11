@@ -305,6 +305,51 @@ a {
   border: solid 8px var(--primary);
 }
 
+/* Portfolio Page Styling */
+.portfolio-title {
+  padding: 25px;
+}
+.wrapper {
+  padding-top: 50px;
+  justify-content: space-around;
+  height: 100%;
+  display: flex;
+  overflow: auto;
+  flex-flow: row wrap;
+  padding: 10px;
+  align-content: flex-start;
+}
+
+.card {
+  border-radius: 5px;
+  height: 400px;
+  width: 400px;
+  margin: 2rem;
+  position: relative;
+  box-shadow: 0 2px 2px var(--tertiary), 0 6px 12px var(--tertiary);
+  border: solid 2px var(--tertiary);
+  font-size: 18px;
+  background-color: var(--tertiary);
+  color: var(--light);
+  font-weight: bold;
+  text-align: center;
+}
+
+.card .img-container {
+  height: 75%;
+  overflow: hidden;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.card .img-container img {
+  padding: 25px;
+}
+
+.portfolio-content {
+  margin-top: 10px;
+}
+
 /* Footer Styling */
 .footer{
   margin-top: 1rem;
