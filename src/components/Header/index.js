@@ -4,7 +4,7 @@ import { Navbar, Nav } from 'react-bootstrap';
 class Header extends Component {
     render() {
         return (
-            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+            <Navbar collapseOnSelect expand="lg" variant="dark" className="header">
             <Navbar.Brand href="#home">Kailey Morter's Portfolio</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
