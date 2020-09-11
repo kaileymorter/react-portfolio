@@ -6,7 +6,7 @@ function Wrapper(props) {
     return <div className="wrapper">{props.children}</div>;
 }
 
-function Portfolio(props) {
+function Portfolio() {
 
     return (
         <div>
@@ -16,7 +16,7 @@ function Portfolio(props) {
 
             <Wrapper>
                 {projects.map((project) => (
-                    <ProjectCard  key={project.id} name={project.name} github={project.github} deploy={project.deploy}/>
+                    <ProjectCard  key={project.id} name={project.name} image={project.image} github={project.github} deploy={project.deploy}/>
                 ))}
             </Wrapper>
         </div>
