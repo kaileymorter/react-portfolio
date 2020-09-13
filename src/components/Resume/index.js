@@ -5,7 +5,7 @@ function Resume() {
         <section>
             <h1 className="resume-title">Resume</h1>
             <div className="resume-content">
-                <h4>Downloaded version of my <a href="/">resume</a></h4>
+                <h4>Downloaded version of my <a href="https://github.com/kaileymorter/react-portfolio/raw/master/src/assets/Kailey-Morter-Resume.pdf">resume</a></h4>
                 <br></br>
                 <div>
                     <h3>Front-End Proficiencies</h3>

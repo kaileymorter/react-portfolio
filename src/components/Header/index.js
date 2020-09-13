@@ -1,4 +1,4 @@
-import React, { useState, Component } from 'react';
+import React, { useState } from 'react';
 import Navigation from '../Navigation'
 import About from '../About'
 import Portfolio from '../Portfolio'

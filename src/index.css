@@ -7,16 +7,23 @@
 }
 
 /* General Application Styling */
-body {
+
+.page-content {
+  position: relative;
+  min-height: 100vh;
+}
+
+html, body {
   margin: 0;
   padding: 0;
+  height: 100%;
   font-weight: 600;
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: .1em;
   background: var(--light);
   color: var(--dark);
-  font-family: 'Roboto'
+  font-family: 'Roboto';
 }
 
 h1,
@@ -107,6 +114,7 @@ a {
 .portrait {
   max-width: 25%;
   border: solid 8px var(--primary);
+  border-radius: 5px 25px 5px;
 }
 
 /* Portfolio Page Styling */
@@ -181,9 +189,8 @@ form {
   margin-top: 1rem;
   padding: 1rem;
   background-color: var(--dark);
-  position: fixed;
+  position: relative;
   bottom: 0;
-  left: 0;
   width: 100%;
   text-align: center;
   color: #ffffff;
