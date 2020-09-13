@@ -6,7 +6,7 @@ function Navigation(props) {
 
     return (
         <Navbar collapseOnSelect expand="lg" variant="dark" className="header">
-            <Navbar.Brand href={tabs[0]}>Kailey Morter's Portfolio</Navbar.Brand>
+            <Navbar.Brand>Kailey Morter's Portfolio</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="ml-auto">
