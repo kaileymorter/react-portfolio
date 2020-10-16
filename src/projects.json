@@ -43,10 +43,10 @@
     },
     {
         "id": 7,
-        "name": "Javascript Coding Quiz",
-        "image": "https://github.com/kaileymorter/react-portfolio/raw/master/src/assets/images/coding-quiz.jpg",
-        "github": "https://github.com/kaileymorter/coding-quiz",
-        "deploy": "https://kaileymorter.github.io/coding-quiz/"
+        "name": "RoloDeck",
+        "image": "https://github.com/kaileymorter/react-portfolio/raw/master/src/assets/images/rolo-deck.jpg",
+        "github": "https://github.com/kaileymorter/Roll-a-Jazz",
+        "deploy": "https://rolodeck.herokuapp.com/"
     },
     {
         "id": 8,
