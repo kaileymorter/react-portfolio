@@ -43,7 +43,7 @@
     },
     {
         "id": 7,
-        "name": "RoloDeck",
+        "name": "Rolo Deck",
         "image": "https://github.com/kaileymorter/react-portfolio/raw/master/src/assets/images/rolo-deck.jpg",
         "github": "https://github.com/kaileymorter/Roll-a-Jazz",
         "deploy": "https://rolodeck.herokuapp.com/"
